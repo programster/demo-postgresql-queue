@@ -1,0 +1,17 @@
+{
+    "require": {
+        "irap/autoloader": "1.*",
+        "programster/pgsql-migrations": "^0.3.2",
+        "programster/pgsql-objects": "^1.1",
+        "symfony/dotenv": "^5.3"
+    },
+    "config": {
+        "sort-packages": true,
+        "platform" : {
+            "php": "8.0.0"
+        }
+    },
+    "require-dev": {
+        "programster/orm-generator": "^1.1"
+    }
+}
